@@ -35,7 +35,7 @@ Packages used:
 
 ***
 
-## Downloading and Installing
+## [Downloading and Installing](#table-of-contents)
 
 - A code editor like <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
 - A JavaScript runtime environment like <a href="https://nodejs.org/">Node.js</a>.
@@ -43,7 +43,7 @@ Packages used:
 
 <br>
 
-## JavaScript Files
+## [JavaScript Files](#table-of-contents)
 
 ### ```server.js```
   This file is responsible for allowing users to register or log in with their ```username``` and ```password```. If they are registering, then the ```password``` is hashed so that it is encrypted when it is stored instead of being in plain text. It prompts the users that they are successfully registered. If they are logging in, then the ```username``` and ```password``` is compared to what is stored. If the match is successful, then they are given a token that is a ```SECRET_KEY``` that expires in 1 hour as a middleware to authenticate the JWT. Otherwise, the login fails and prompts the user that their credentials are invalid. After logging in, the users can access the protected route that only users that are logged in are able to.
@@ -56,7 +56,7 @@ Packages used:
 
 <br>
 
-## Endpoints and Microservices
+## [Endpoints and Microservices](#table-of-contents)
 
 ### ```/api/register```
   This endpoint is where the user registers with their ```username``` and ```password``` of their choice.
@@ -72,7 +72,7 @@ Packages used:
 
 <br>
 
-## Example Links
+## [Example Links](#table-of-contents)
 
 1. ```/api/register```: ```http://localhost:3000/api/register```
 2. ```/api/login```: ```http://localhost:3000/api/login```
