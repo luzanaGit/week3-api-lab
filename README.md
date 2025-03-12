@@ -17,7 +17,7 @@ Software used:
 3. Postman
 
 Packages used:
-<br><br>
+<br>
 1. ```express```
 2. ```bcryptjs```
 3. ```dotenv```
