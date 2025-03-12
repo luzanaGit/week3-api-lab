@@ -31,9 +31,11 @@ Packages used:
 
 ## Downloading and Installing
 
-- A code editor like <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>.
-- A JavaScript runtime environment like <a href="https://nodejs.org/" target="_blank">Node.js</a>.
-- An API platform like <a href="https://www.postman.com/" target="_blank">Postman</a>.
+- A code editor like <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+- A JavaScript runtime environment like <a href="https://nodejs.org/">Node.js</a>.
+- An API platform like <a href="https://www.postman.com/">Postman</a>.
+
+<br>
 
 ## JavaScript Files
 
@@ -49,6 +51,8 @@ Packages used:
 
 ### ```product-service.js```
   This file is a ```.json``` file that contains list of products, with their ```id``` and ```name```.
+
+<br>
 
 ## Endpoints and Microservices
 
@@ -69,6 +73,8 @@ Packages used:
 
 ### ```/api/products```
   This endpoint neatly arranges the list of products with their ```id``` and ```name```.
+
+<br>
 
 ## Example Links
 
