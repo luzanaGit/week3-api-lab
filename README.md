@@ -22,12 +22,14 @@ Packages used:
 
 ***
 
-<h3>Table of Contents</h3>
+## Table of Contents
 
 * [Downloading and Installing](#downloading-and-installing)
 * [JavaScript Files](#javascript-files)
 * [Endpoints and Microservices](#endpoints-and-microservices)
 * [Example Links](#example-links)
+
+***
 
 ## Downloading and Installing
 
@@ -42,12 +44,8 @@ Packages used:
 ### ```server.js```
   This file is responsible for allowing users to register or log in with their ```username``` and ```password```. If they are registering, then the ```password``` is hashed so that it is encrypted when it is stored instead of being in plain text. It prompts the users that they are successfully registered. If they are logging in, then the ```username``` and ```password``` is compared to what is stored. If the match is successful, then they are given a token that is a ```SECRET_KEY``` that expires in 1 hour as a middleware to authenticate the JWT. Otherwise, the login fails and prompts the user that their credentials are invalid. After logging in, the users can access the protected route that only users that are logged in are able to.
 
-<br>
-
 ### ```auth-service.js```
   This file contains the list of users, with their ```id```, ```username```, and ```password```. It authenticates the user if it matches the credentials that are stored, otherwise, it prompts the user that the credentials are invalid.
-
-<br>
 
 ### ```product-service.js```
   This file is a ```.json``` file that contains list of products, with their ```id``` and ```name```.
@@ -59,17 +57,11 @@ Packages used:
 ### ```/api/register```
   This endpoint is where the user registers with their ```username``` and ```password``` of their choice.
 
-<br>
-
 ### ```/api/login```
   This endpoint is where the user logs in with their ```username``` and ```password```. If the login is successful, then they are given a token that will be used to access the protected route.
 
-<br>
-
 ### ```/api/protected```
   This endpoint gives a message that tells the user that they have successfully accessed the protected route.
-
-<br>
 
 ### ```/api/products```
   This endpoint neatly arranges the list of products with their ```id``` and ```name```.
